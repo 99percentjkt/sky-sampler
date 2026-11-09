@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only the canonical repo deploys. A fork that somehow triggers this has no
     # service account secret anyway, but being explicit costs nothing.
-    if: github.repository == 'unchuckit/sky-sampler'
+    if: github.repository == '99percentjkt/sky-sampler'
     permissions:
       contents: read
     steps:
